@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="goRestAPI">
+    <test name="org.goRestAPITests">
+        <classes>
+            <class name="org.goRestAPITests.createValidUser" />
+            <class name="org.goRestAPITests.createUserUnauthorizedRequest" />
+            <class name="org.goRestAPITests.createUserInvalidEmailFormat" />
+            <class name="org.goRestAPITests.createUserMissingNameParam" />
+        </classes>
+    </test>
+</suite>
